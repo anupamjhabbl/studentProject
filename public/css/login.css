@@ -1,0 +1,21 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-image:url('./../registrationform.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formbox{
+    width:40%;
+    margin:auto;
+    margin-top: 200px;
+    background-color:rgba(0, 0, 0, 0.849);
+    color:white;
+    padding:30px;
+    padding-bottom:15px;
+}
+
+#newuser{
+    margin-top:15px;
+}

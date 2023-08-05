@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{name}}</title>
+    <link rel="stylesheet" href="/css/student.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    {{>navbar}}
+    <div class="main">
+        <div id="section1">
+            <div class="content">
+                <p>Name: <span id="name"></span></p>
+                <p>Class: <span id="class"></span></p>
+                <p>Age: <span id="age"></span></p>
+                <p>Phone: <span id="phone"></span></p>
+                <p>Email: <span id="email"></span></p>
+                <p>Password: <span id="password"></span></p>
+            </div>
+            <div class="buttons">
+                <button class="btn btn-primary button"> <a href="/fee" id="feelink">fee</a> </button>
+                <button class="btn btn-primary button"> Academics </button>
+                <button class="btn btn-primary button"> History </button>
+            </div>
+        </div>
+        <div id="section2">
+            <img src="/anupam.png" alt="anuoo" width="400px">
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/student.js"></script>
+</body>
+</html>
